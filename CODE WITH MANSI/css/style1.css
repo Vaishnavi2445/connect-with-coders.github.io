@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#v-co{
+    position: relative;
+    height: auto;
+color: white;
+font-family: 'Bree Serif', serif;
+
+
+}
+#v-co h1{
+
+    padding: 50px 40px;
+}
+
+#v-co::before{
+    content: "";
+     position: absolute;
+    background:url('../img/coders.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+#vai img{
+    height: 150px;
+    padding: 10px 200px;
+    display: flex;
+    transition: transform 2s;
+    
+}
+#vai img:hover{
+    transform: scale(0,1);
+    cursor: pointer;
+}
+
+#vai a1 img{
+    height: 153px;
+}
+#vai a2 img{
+    height: 133px;
+}
+#vai a3 img{
+    height: 124px;
+}
+#v-co a4 img{
+    padding-left: 416px;
+    margin: -472px 391px;
+    height: 404px;
+
+
+}
